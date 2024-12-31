@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", serif;
+}
+p {
+  font-family: Salsa;
+}
+body {
+  background: url(IMG/2151302734.jpg) no-repeat;
+  background-size: 100% 120%;
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.349);
+  background-blend-mode: multiply;
+}
+@media screen and (max-width: 767px) {
+  body {
+    background: url(IMG/2151302734.jpg) no-repeat;
+    background-color: rgba(0, 0, 0, 0.363);
+    background-size: 100% 100%;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+.nnn {
+  padding: 1rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 5px;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.logo img {
+  width: 10rem;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .logo img {
+    width: 8rem;
+    text-decoration: none;
+  }
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.quote-btn {
+  background: #e9ff1a;
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.hero-content {
+  padding: 2rem;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  max-width: 800px;
+}
+@media screen and (max-width: 767px) {
+  .hero-content {
+    margin-top: -2rem;
+  }
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.hero .p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  color: #e9ff1a;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #e9ff1a;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.hero h1 {
+  width: 150%;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-content {
+    padding-top: 25%;
+  }
+}
+hr {
+  width: 159%;
+}
+@media (max-width: 768px) {
+  hr {
+    width: 100%;
+  }
+}
+.T {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  color: white;
+}
+.t {
+  width: 50%;
+}
+.tt {
+  padding: 1rem;
+  width: 40%;
+}
+@media (max-width: 768px) {
+  .T {
+    width: 100%;
+  }
+  .t {
+    display: none;
+  }
+  .tt {
+    width: 100%;
+  }
+}
